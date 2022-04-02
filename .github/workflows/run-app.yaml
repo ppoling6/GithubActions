@@ -1,4 +1,4 @@
-name: 'Run App Poling'
+name: 'Run App Poling' 
 
 on: [push, pull_request]
 
