@@ -127,10 +127,5 @@ namespace GithubActionsLab
             Assert.Throws<ArgumentNullException>(() => Program.Power(null, null));
         }
 
-        [Test]
-        public void FailPoling()
-        {
-            Assert.AreEqual(0, Program.Power("1", "2"));
-        }
     }
 }
